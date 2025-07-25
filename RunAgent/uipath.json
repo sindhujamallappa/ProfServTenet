@@ -1,0 +1,39 @@
+{
+    "entryPoints": [
+        {
+            "filePath": "main.py",
+            "uniqueId": "450091b9-1dd4-43c7-8b40-d70bce45edf5",
+            "type": "agent",
+            "input": {},
+            "output": {
+                "type": "object"
+            }
+        }
+    ],
+    "bindings": {
+        "version": "2.0",
+        "resources": [
+            {
+                "resource": "process",
+                "key": "sindhuja.m@uipath.com's workspace.profservtenet",
+                "value": {
+                    "name": {
+                        "defaultValue": "profservtenet",
+                        "isExpression": false,
+                        "displayName": "Name"
+                    },
+                    "folderPath": {
+                        "defaultValue": "sindhuja.m@uipath.com's workspace",
+                        "isExpression": false,
+                        "displayName": "Folder Path"
+                    }
+                },
+                "metadata": {
+                    "ActivityName": "invoke",
+                    "BindingsVersion": "2.2",
+                    "DisplayLabel": "FullName"
+                }
+            }
+        ]
+    }
+}
